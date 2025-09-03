@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='ntu_greenhouse'>
+    <link name='link'>
+      <visual name='visual'>
+        <geometry>
+          <mesh>
+            <uri>model://ntu_greenhouse/meshes/ntu_greenhouse.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://ntu_greenhouse/meshes/ntu_greenhouse.dae</uri>
+          </mesh>
+        </geometry>
+      <collision>
+    </link>
+  </model>
+</sdf>
